@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t5r-JK-Jug">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_splash.png" translatesAutoresizingMaskIntoConstraints="NO" id="bDU-mr-BUq">
+                                        <rect key="frame" x="-5" y="-5" width="424" height="906"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_logo_big.png" translatesAutoresizingMaskIntoConstraints="NO" id="JeN-4q-6Qh">
+                                        <rect key="frame" x="40" y="173" width="334" height="250"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="250" id="IZ8-Qy-ebV"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="bDU-mr-BUq" secondAttribute="trailing" constant="-5" id="Awi-cn-f5d"/>
+                                    <constraint firstAttribute="trailing" secondItem="JeN-4q-6Qh" secondAttribute="trailing" constant="40" id="CGf-VG-dOH"/>
+                                    <constraint firstItem="bDU-mr-BUq" firstAttribute="top" secondItem="t5r-JK-Jug" secondAttribute="top" constant="-5" id="Hak-zq-mSd"/>
+                                    <constraint firstItem="bDU-mr-BUq" firstAttribute="leading" secondItem="t5r-JK-Jug" secondAttribute="leading" constant="-5" id="e3H-iO-tyF"/>
+                                    <constraint firstItem="JeN-4q-6Qh" firstAttribute="centerY" secondItem="t5r-JK-Jug" secondAttribute="centerY" constant="-150" id="pXJ-dF-btI"/>
+                                    <constraint firstItem="JeN-4q-6Qh" firstAttribute="leading" secondItem="t5r-JK-Jug" secondAttribute="leading" constant="40" id="rU2-bL-Csb"/>
+                                    <constraint firstAttribute="bottom" secondItem="bDU-mr-BUq" secondAttribute="bottom" constant="-5" id="u7T-Bj-fzS"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="t5r-JK-Jug" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7Ke-0d-Drh"/>
+                            <constraint firstItem="t5r-JK-Jug" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Fvd-ra-BAG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="t5r-JK-Jug" secondAttribute="trailing" id="ZjH-fA-PQp"/>
+                            <constraint firstAttribute="bottom" secondItem="t5r-JK-Jug" secondAttribute="bottom" id="jg7-M4-pSy"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_logo_big.png" width="280" height="280"/>
+        <image name="ic_splash.png" width="375" height="812"/>
+    </resources>
+</document>

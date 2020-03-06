@@ -1,0 +1,62 @@
+PODS:
+  - Alamofire (4.9.1)
+  - DynamicBlurView (4.0.0)
+  - FSCalendar (2.8.1)
+  - JSSAlertView (5.0.2)
+  - Kingfisher (5.13.0):
+    - Kingfisher/Core (= 5.13.0)
+  - Kingfisher/Core (5.13.0)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+  - Stripe (18.4.0)
+  - SwiftMessages (7.0.1):
+    - SwiftMessages/App (= 7.0.1)
+  - SwiftMessages/App (7.0.1)
+  - Toast-Swift (5.0.1)
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - FSCalendar
+  - JSSAlertView
+  - Kingfisher
+  - NVActivityIndicatorView
+  - PopupDialog
+  - Stripe
+  - SwiftMessages
+  - Toast-Swift
+  - XLPagerTabStrip (~> 9.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - DynamicBlurView
+    - FSCalendar
+    - JSSAlertView
+    - Kingfisher
+    - NVActivityIndicatorView
+    - PopupDialog
+    - Stripe
+    - SwiftMessages
+    - Toast-Swift
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  DynamicBlurView: ccf9acd2b20c883cc2c72e3524a04d8d3ee20533
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+  JSSAlertView: 18345e37d8295827428c12b773b6d75d0dfd0b28
+  Kingfisher: 0d334cada987fcddbe9b5cec516406e1ee9d4748
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+  Stripe: fa837c60f0644b488c994024ce7d9b001ea4e97c
+  SwiftMessages: b577dc7043be8b299857ab35bb663dbff6483bd0
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+
+PODFILE CHECKSUM: c7edcad765d892407c13e0c7376464e867e24cb2
+
+COCOAPODS: 1.8.4
